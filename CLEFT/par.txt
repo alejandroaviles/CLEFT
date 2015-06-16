@@ -1,0 +1,12 @@
+CORR_FUNC
+
+Init
+r_max 		300
+r_min 		1
+r_bin_num 	300
+xi_file 	../data/xi_WMAP7.dat
+v12_file 	../data/v12.txt
+s12_file 	none
+pow_spec_file 	../data/plin_wmap7.dat
+k_file 	   none
+q_file 	   none
