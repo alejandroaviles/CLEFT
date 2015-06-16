@@ -12,7 +12,7 @@ avilescervantes@gmail.com
 
 
 
-CLEFT-code is an extension of Lile Wang's integration code on CLPT (https://github.com/wll745881210/CLPT_GSRSD) that includes EFT contributions as explained in arXiv:1506.XXXX. It also calculates the \Xi_ell(q) functions defined in eqs.(4.14)-(4.17) of arXiv:1506.XXXX.
+CLEFT-code is an extension of Lile Wang's integration c++ code on CLPT (https://github.com/wll745881210/CLPT_GSRSD) that includes EFT contributions as explained in arXiv:1506.XXXX. It also calculates the \Xi_ell(q) functions defined in eqs.(4.14)-(4.17) of arXiv:1506.XXXX.
 
 The input is the linear power spectrum at the desire redshift of the output files. It should be included in the data/ directory  (or otherwise specified in the CLEFT/par.ini file). It should be a raw ascii file with columns:
  
