@@ -7,7 +7,11 @@
 
 Alejandro Aviles
 University of California, Berkeley.
-avilescervantes@gmail.com
+aviles@berkeley.edu, avilescervantes@gmail.com
+
+Zvonimir Vlah
+Stanford University.
+zvlah@stanford.edu
 
 
 
@@ -60,7 +64,7 @@ Thus, to plot the full theory one should add:
 
 You can use your own k_func.dat input file by writing its relative route in CLEFT/par.ini
 
-3) data/q_func.dat output file gives the \Xi_ell(q) functions as defined in eqs.()-() of arXiv:1506.XXXX. Each \Xi_ell is split in linear (if it has), loop and eft pieces. The last two columns gives the linear and loop 1D displacement field dispersions. The columns are:
+3) data/q_func.dat output file gives the \Xi_ell(q) functions as defined in eqs.(4.14)-(4.17) of arXiv:1506.XXXX. Each \Xi_ell is split in linear (if it has), loop and eft pieces. The last two columns gives the linear and loop 1D displacement field dispersions. The columns are:
 
 #1  =  q
 #2  =  linear correlation function 
