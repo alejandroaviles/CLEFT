@@ -44,14 +44,14 @@ Output files:
 #3  = \xi_ZA
 #4  = \xi_Aloop
 #5  = \xi_Aeft_alpha_0
-#6  = \xi_Aeft_alpha_2
+#6  = \xi_Aeft_alpha_1
 #7  = \xi_Wloop
-#8  = \xi_Weft_alpha_1
+#8  = \xi_Weft_alpha_2
 #9  = \xi_Weft_alpha_3
 
 Thus, to plot the full theory one should add:
 
-\xi_LEFT = #3 + #4 + #7 + \alpha_0 #5 + \alpha_2 #6 +\alpha_1 #8 +\alpha_0 #9
+\xi_LEFT = #3 + #4 + #7 + \alpha_0 #5 + \alpha_1 #6 +\alpha_2 #8 +\alpha_3 #9
 
 2) data/k_func.dat output file gives the Q_n(k) and R_n(k) functions as written in appendix A of arXiv:1506.XXXX. The columns are
 
