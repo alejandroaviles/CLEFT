@@ -16,7 +16,7 @@ zvlah@stanford.edu
 
 
 
-CLEFT-code is an extension of Lile Wang's integration c++ code on CLPT (https://github.com/wll745881210/CLPT_GSRSD) that includes EFT contributions as explained in arXiv:1506.XXXX. It also calculates the \Xi_ell(q) functions defined in eqs.(4.14)-(4.17) of arXiv:1506.05264.
+CLEFT-code is an extension of Lile Wang's integration c++ code on CLPT (https://github.com/wll745881210/CLPT_GSRSD) that includes EFT contributions as explained in arXiv:1506.XXXX. It also calculates the \Xi_ell(q) functions defined in eqs.(4.14) of arXiv:1506.05264.
 
 The input is the linear power spectrum at the desire redshift of the output files. It should be included in the data/ directory  (or otherwise specified in the CLEFT/par.ini file). It should be a raw ascii file with columns:
  
@@ -64,7 +64,7 @@ Thus, to plot the full theory one should add:
 
 You can use your own k_func.dat input file by writing its relative route in CLEFT/par.ini
 
-3) data/q_func.dat output file gives the \Xi_ell(q) functions as defined in eqs.(4.14)-(4.17) of 1506.05264. Each \Xi_ell is split in linear (if it has), loop and eft pieces. The last two columns gives the linear and loop 1D displacement field dispersions. The columns are:
+3) data/q_func.dat output file gives the \Xi_ell(q) functions as defined in eqs.(4.14) of 1506.05264. Each \Xi_ell is split in linear (if it has), loop and eft pieces. The last two columns gives the linear and loop 1D displacement field dispersions. The columns are:
 
 #1  =  q
 #2  =  linear correlation function 
