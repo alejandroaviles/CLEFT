@@ -16,7 +16,7 @@ zvlah@stanford.edu
 
 
 
-CLEFT-code is an extension of Lile Wang's integration c++ code on CLPT (https://github.com/wll745881210/CLPT_GSRSD) that includes EFT contributions as explained in arXiv:1506.XXXX. It also calculates the \Xi_ell(q) functions defined in eqs.(4.14) of arXiv:1506.05264.
+CLEFT-code is an extension of Lile Wang's integration c++ code on CLPT (https://github.com/wll745881210/CLPT_GSRSD) that includes EFT contributions as explained in arXiv:1506.05264. It also calculates the \Xi_ell(q) functions defined in eqs.(4.14) of arXiv:1506.05264.
 
 The input is the linear power spectrum at the desire redshift of the output files. It should be included in the data/ directory  (or otherwise specified in the CLEFT/par.ini file). It should be a raw ascii file with columns:
  
@@ -62,7 +62,7 @@ Thus, to plot the full theory one should add:
 #5 = Q_2
 #6 = Q_3
 
-You can use your own k_func.dat input file by writing its relative route in CLEFT/par.ini
+You can use your own k_func.dat input file by writing its route in CLEFT/par.ini
 
 3) data/q_func.dat output file gives the \Xi_ell(q) functions as defined in eqs.(4.14) of 1506.05264. Each \Xi_ell is split in linear (if it has), loop and eft pieces. The last two columns gives the linear and loop 1D displacement field dispersions. The columns are:
 
@@ -81,13 +81,13 @@ You can use your own k_func.dat input file by writing its relative route in CLEF
 #13 =  \Xi_0_lin(q=0)  = 3*sigma^2_lin 
 #14 =  \Xi_0_loop(q=0) = 3*sigma^2_loop 
 
-You can use your own q_func.dat input file by writing its relative route in CLEFT/par.ini
+You can use your own q_func.dat input file by writing its relative in CLEFT/par.ini
 
 #################################################
 #################################################
 
 
-You can use this code as it is or modify it as you want. Just cite the papers:
+You can use this code as it is or you can modify it as you want. Just cite the papers:
 
 1) Vlah, White & Aviles [arXiv:1506.05264]
 2) Wang, Reid & White [MNRAS 437 (2014) 588, arXiv:1306:1804] 
