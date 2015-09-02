@@ -89,7 +89,7 @@ You can use your own q_func.dat input file by writing its relative in CLEFT/par.
 
 You can use this code as it is or you can modify it as you want. Just cite the papers:
 
-1) Vlah, White & Aviles [arXiv:1506.05264]
+1) Vlah, White & Aviles [JCAP 09 (2015) 014, arXiv:1506.05264]
 2) Wang, Reid & White [MNRAS 437 (2014) 588, arXiv:1306:1804] 
 
 You may also want to cite:
