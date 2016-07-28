@@ -86,7 +86,7 @@ void corr_func::M( const double & r, const vec3 & q )
 	Teftalpha1 = 0.0;
 	
 	Veftalpha3 = - 3./5. * qfv.Xi3eft;
-	Teftalpha3 = 3. * qfv.Xieft;	
+	Teftalpha3 = 3. * qfv.Xi3eft;	
 	
 	
 	Xup = Xlin0lag + Xlinq;
